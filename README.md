@@ -39,7 +39,16 @@ Customer churn — when a customer stops using a company's service — is costly
 
 ## ✅ Results
 
-Both Decision Tree and Random Forest reached ~94% accuracy after SMOTEENN resampling, with strong precision/recall/F1 on the minority (churn) class. Random Forest was chosen as the final model with a *(see notebook for exact numbers — fill in once finalized)*.
+Both Decision Tree and Random Forest reached ~94% accuracy after SMOTEENN resampling, with strong precision/recall/F1 on the minority (churn) class. Decision Trees was chosen as the final model as it performed slightly better with: 93.81% accuracy
+
+              precision    recall  f1-score   support
+
+           0       0.95      0.92      0.93       524
+           1       0.93      0.96      0.94       624
+
+    accuracy                           0.94      1148
+   macro avg       0.94      0.94      0.94      1148
+weighted avg       0.94      0.94      0.94      1148
 
 ## 🛠️ Tech Stack
 
